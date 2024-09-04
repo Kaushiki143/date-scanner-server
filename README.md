@@ -1,13 +1,8 @@
-# 🚀  Flask Backend API Project Template
+# TakeMeds 💊
 
-When you have a Python project that runs locally but want to turn it into a webapp, you have to make it into an API. This is a template that takes care of this for you.
+![takemeds logo](./assets/takemeds.png)
 
-Put your backend code in /api, and add endpoints to call it in routes.py.
-
-Put your frontend code in /frontend and call the flask endpoint, and voila - all done!
-
-There might be some rough edges around this template, but it should give you an idea of what to do.
-
+Forgetting medication expiration dates leads to waste, health risks, and unnecessary stress. TakeMeds is a gamified app that makes medication management easy. Snap a photo of the expiration date, receive timely reminders, and even get directions to the nearest pharmacy for refills. Unlike cluttered and complex existing apps, we prioritize user-friendliness and your well-being.
 
 ## Project Template: Backend API
 
@@ -52,13 +47,14 @@ There might be some rough edges around this template, but it should give you an 
    ```
 
 4. Trigger endpoints with:
+
    ```sh
    curl -X 'GET' \
    'http://127.0.0.1:8000/health' \
    -H 'accept: application/json'
    ```
 
-5. Run tests with:   curl -X 'GET' \
+5. Run tests with: curl -X 'GET' \
    'http://127.0.0.1:8000/health' \
    -H 'accept: application/json'
    ```sh
@@ -68,11 +64,13 @@ There might be some rough edges around this template, but it should give you an 
 ## CI/CD + Dev Notes
 
 ### Python Version and Code Style
-- Using **Python 3.7** for development.
-- Code formatting is handled by [**black**](https://black.readthedocs.io/en/stable/), a code formatter that enforces PEP 8 style guide.
-- Linting is done with [**flake8**](https://flake8.pycqa.org/en/latest/), which helps to identify coding errors and maintain code quality.
+
+-  Using **Python 3.7** for development.
+-  Code formatting is handled by [**black**](https://black.readthedocs.io/en/stable/), a code formatter that enforces PEP 8 style guide.
+-  Linting is done with [**flake8**](https://flake8.pycqa.org/en/latest/), which helps to identify coding errors and maintain code quality.
 
 ### Pre-commit Hooks
-- The project uses [**pre-commit**](https://pre-commit.com/) to manage and maintain pre-commit hooks.
-- Run `pre-commit install` to install pre-commit formatting and linting. This ensures that every commit adheres to the code style guide and passes linting checks.
-- You can manually run all pre-commit hooks on a repository with `pre-commit run --all-files`.
+
+-  The project uses [**pre-commit**](https://pre-commit.com/) to manage and maintain pre-commit hooks.
+-  Run `pre-commit install` to install pre-commit formatting and linting. This ensures that every commit adheres to the code style guide and passes linting checks.
+-  You can manually run all pre-commit hooks on a repository with `pre-commit run --all-files`.
