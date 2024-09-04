@@ -4,6 +4,10 @@
 
 Forgetting medication expiration dates leads to waste, health risks, and unnecessary stress. TakeMeds is a gamified app that makes medication management easy. Snap a photo of the expiration date, receive timely reminders, and even get directions to the nearest pharmacy for refills. Unlike cluttered and complex existing apps, we prioritize user-friendliness and your well-being.
 
+### DevPost
+
+[https://devpost.com/software/medreminder-2acnvd?ref_content=my-projects-tab&ref_feature=my_projects](https://devpost.com/software/medreminder-2acnvd?ref_content=my-projects-tab&ref_feature=my_projects)
+
 ## Project Template: Backend API
 
 ### 🛠️ Directory Structure
